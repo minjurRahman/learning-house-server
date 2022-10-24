@@ -22,7 +22,10 @@ app.get('/course/:id', (req, res) =>{
 
 }) 
 
-
+//Display course category
+app.get('/course-categories', (req, res) =>{
+    res.send(categories)
+})
 
 
 
