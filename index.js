@@ -27,7 +27,23 @@ app.get('/course-categories', (req, res) =>{
     res.send(categories)
 })
 
+//dynamic category if needed
+app.get('/category/:id', (req, res) =>{
+    const id = req.params.id;
+    if(id === '08'){
+        res.send(news);
+    }
+    else{
+        const category_news = news.filter(n => n.category_id === id);
+        res.send(category_news);
+    }
 
+})
+
+//all the courses
+app.get('/course', (req, res) =>{
+    res.send(news);
+})
 
 app.listen(port, () =>{
     console.log('Education institute server running on port:', port )
