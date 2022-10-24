@@ -13,6 +13,16 @@ app.get('/', (req, res) =>{
     res.send('Education plus API Running');
 });
 
+// Dynamic get course by ID
+app.get('/course/:id', (req, res) =>{
+    const id = req.params.id;
+    console.log(id)
+    const selectCourse = news.find(n => n.id === id);
+    res.send(selectCourse);
+
+}) 
+
+
 
 
 
