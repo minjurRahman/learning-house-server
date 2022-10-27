@@ -1,34 +1,27 @@
 [
     {
         "id": "01",
-        "name": "Breaking News"
+        "name": "CSC Fundamental"
     },
     {
         "id": "02",
-        "name": "Regular News"
+        "name": "HTML"
     },
     {
         "id": "03",
-        "name": "International News"
+        "name": "CSS"
     },
     {
         "id": "04",
-        "name": "Sports"
+        "name": "JavaScript"
     },
     {
         "id": "05",
-        "name": "Entertainment"
+        "name": "Physics"
     },
     {
         "id": "06",
-        "name": "Culture"
-    },
-    {
-        "id": "07",
-        "name": "Arts"
-    },
-    {
-        "id": "08",
-        "name": "All News"
+        "name": "Chemistry"
     }
+
 ]
